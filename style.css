@@ -1,0 +1,237 @@
+body{
+    
+    font-family: 'DM Sans',sans-serif;
+    text-align: center;
+    
+}
+#home{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 100px;
+    display:inline-flex;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(41, 41, 41);;
+}
+
+#home .logo{
+    margin-top: 10px;
+    margin-left: 20px;
+    width:80px;
+    display: inline-flex;
+   
+}
+.textologo{
+    display: inline-flex;
+
+    vertical-align:middle;
+    text-align: left;
+    vertical-align: top;
+    padding: 7px 0;
+    color:rgb(41, 41, 41);
+    
+}
+#home ul{
+    display:flex;
+    vertical-align: top;
+    justify-content:space-between;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+header li {
+    display: inline-flex;
+    font-weight: 600;
+    color: rgb(41, 41, 41);
+    padding: 5px;
+    text-decoration: none;
+    
+    
+    
+}
+#home ul li:hover{
+    cursor: pointer;
+}
+
+/* ===================================main===================================== */
+.sobre{
+    background-color: rgb(65, 175, 175);
+    
+}
+.sobre .textMain{
+    display:inline-block;
+    text-align:right;
+    margin-right: 20px;
+    font-size: xxx-large;
+    margin-top:0px;
+    color:white;
+}
+.sobre .textMain h2{
+    margin-right: 20px;
+
+}
+.sobre .polaroid1{
+    margin-top: 20px;
+    width: 300px;
+    display: inline-flex;
+    justify-content:space-around;
+    float:right;
+    margin-right: 60px;
+    
+}
+.sobre2{
+    background-color: rgb(128, 41, 41);
+}
+.sobre2 .textMain2{
+    display:inline-block;
+    text-align:right;
+    margin-left: 10px;
+    font-size: xxx-large;
+    margin-top:0px;
+    color:white;
+    
+}
+.sobre2 .polaroid2{
+    margin-top: 20px;
+    width: 300px;
+    display: inline-flex;
+    justify-content:space-around;
+    float:left;
+    margin-left: 60px;
+}
+/* =========================produtos======================= */
+#produtos h2{
+    padding-top: 30px;
+    font-size: xx-large;
+    text-align: center;
+    color:rgb(41, 41, 41);
+    margin-bottom: 0px;
+}
+#produtos h4{
+    padding-bottom: 30px;
+    color:rgb(41, 41, 41);
+    text-align: center;
+    margin-top: 0px;
+}
+main .texti{
+    text-align: center;
+    font-size: xxx-large;
+    margin-top: 0;
+    margin-bottom: 180px;
+    color:rgb(22, 22, 22);
+    vertical-align: bottom;
+}
+.allcolors{
+    text-align: center;
+}
+
+.cores{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.cores .azul{
+    width: 200px;
+    padding-left: 15px;
+    padding-right:  15px;
+    margin-bottom: 20px;
+}
+.cores .azul:hover{
+ width: 205px;
+}
+
+.cores .amarelo{
+    width: 200px;
+    padding-left: 15px;
+    padding-right:  15px;
+    margin-bottom: 20px;
+}
+.cores .amarelo:hover{
+    width: 205px;
+}
+
+.cores .verde{
+    width: 200px;
+    padding-left: 15px;
+    padding-right:  15px;
+    margin-bottom: 20px;
+}
+.cores .verde:hover{
+    width: 205px;
+}
+.precos{
+    display: inline-flex;
+    margin-left: 230px;
+    margin-bottom: 5px;
+}
+
+/* ====================informações============= */
+#info{
+    background-color: rgb(84, 131, 27);
+    text-align: center;
+    color: white;
+}
+#info h2{
+    padding-top: 80px;
+}
+#info h1{
+    padding-bottom: 15px;
+    text-align: center;
+    justify-content: center;
+}
+.polaroid3{
+width: 130px;
+padding-bottom: 80px;
+}
+/* ==================CONTATO==================== */
+
+.contato {
+    text-align: center;
+    background-color: rgb(85,123,134);
+    margin-top: -20px;
+    padding: 30px;
+    color: rgb(240, 240, 240);
+}
+
+/* ===================RODAPÈ=============== */
+footer{
+    display: inline;
+    text-align: center;
+}
+footer img{
+    margin-top: 10px;
+    margin-left: 20px;
+    width:80px;
+    display: inline-block;
+}
+footer h2{
+    display: inline-block;
+    vertical-align:middle;
+    text-align: left;
+    vertical-align: top;
+    padding-top: 15px ;
+    color:rgb(41, 41, 41);
+    
+}
+footer p{
+    display: inline-flex;    
+    vertical-align: top;
+    font-size: 10px;
+    margin-top: 35px;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+footer a{
+    display: inline-flex;
+    text-decoration: none;
+    vertical-align: top;
+    justify-content:end;
+    margin-top: 40px;
+}
+footer li{
+    display: flex;
+    justify-content: space-between;
+   
+}
